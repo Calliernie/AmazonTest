@@ -1,5 +1,5 @@
 ## Amazon-selenium-test
-A simple selenium test with selenium written in Java and gherkin to search for a shoe\ on the Amazon website
+A simple selenium test with selenium written in Java and gherkin to search for a shoe on the Amazon website
 
 ## Prerequisites
 Install latest version of JDK\
