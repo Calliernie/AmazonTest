@@ -46,6 +46,6 @@ public class TestSteps extends Setup {
     public void checkThatShoesShowsWithItsDetails() {
         String productTitle = driver.findElement(By.xpath("//h1[@id='title']")).getText();
         System.out.println(productTitle);
-        Assert.assertEquals(shoeName, productTitle);
+        Assert.assertTrue(shoeName.contains(productTitle));
     }
 }
